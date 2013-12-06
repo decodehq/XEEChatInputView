@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A7A715D01833E49F0054FF92"
-               BuildableName = "XEEChatInputView Documentation"
-               BlueprintName = "XEEChatInputView Documentation"
+               BlueprintIdentifier = "A7778F2B18350FA50094595F"
+               BuildableName = "Documentation"
+               BlueprintName = "Documentation"
                ReferencedContainer = "container:XEEChatInputView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

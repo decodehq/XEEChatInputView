@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		A7A715D01833E49F0054FF92 /* XEEChatInputView Documentation */ = {
+		A7778F2B18350FA50094595F /* Documentation */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A7A715D11833E49F0054FF92 /* Build configuration list for PBXAggregateTarget "XEEChatInputView Documentation" */;
+			buildConfigurationList = A7778F2E18350FA60094595F /* Build configuration list for PBXAggregateTarget "Documentation" */;
 			buildPhases = (
-				A7A715D41833E54C0054FF92 /* ShellScript */,
+				A7778F2F18350FAC0094595F /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = "XEEChatInputView Documentation";
-			productName = Documentation;
+			name = Documentation;
+			productName = "XEEChatInputView Documentation";
 		};
 /* End PBXAggregateTarget section */
 
@@ -299,7 +299,7 @@
 			targets = (
 				A7A715731833ACE70054FF92 /* XEEChatInputView */,
 				A7A715941833ACE80054FF92 /* XEEChatInputViewTests */,
-				A7A715D01833E49F0054FF92 /* XEEChatInputView Documentation */,
+				A7778F2B18350FA50094595F /* Documentation */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A7A715D41833E54C0054FF92 /* ShellScript */ = {
+		A7778F2F18350FAC0094595F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,6 +388,20 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A7778F2C18350FA60094595F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7778F2D18350FA60094595F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A7A715A41833ACE80054FF92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChatInputView.app/ChatInputView";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XEEChatInputView.app/XEEChatInputView";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -517,7 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChatInputView.app/ChatInputView";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XEEChatInputView.app/XEEChatInputView";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,25 +546,17 @@
 			};
 			name = Release;
 		};
-		A7A715D21833E49F0054FF92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		A7A715D31833E49F0054FF92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A7778F2E18350FA60094595F /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7778F2C18350FA60094595F /* Debug */,
+				A7778F2D18350FA60094595F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A7A7156F1833ACE70054FF92 /* Build configuration list for PBXProject "XEEChatInputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -574,15 +580,6 @@
 			buildConfigurations = (
 				A7A715AA1833ACE80054FF92 /* Debug */,
 				A7A715AB1833ACE80054FF92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7A715D11833E49F0054FF92 /* Build configuration list for PBXAggregateTarget "XEEChatInputView Documentation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7A715D21833E49F0054FF92 /* Debug */,
-				A7A715D31833E49F0054FF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
