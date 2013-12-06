@@ -1,3 +1,5 @@
+![Alt text](/images/xee_01.png)
+
 XEEChatInputView documentation
 ========
 
