@@ -11,3 +11,16 @@ One example for usage of such control is if you want to implement a messenger li
 Photo button enables you to take a photo or pick one from photo library and send it just as a text message.
 Submit button notifies a delegate and passes all the information that a message comprises.
 
+
+Contact
+================
+
+Follow XEETech on Twitter (<a href="https://twitter.com/XEE_Tech">XEE Tech</a>).
+
+Connect with us on LinkedIn (<a href="http://www.linkedin.com/company/xee-tech">@XEE_Tech</a>).
+
+
+License
+================
+
+XEEPluralizer is available under the MIT license. See the LICENSE file for more info.
